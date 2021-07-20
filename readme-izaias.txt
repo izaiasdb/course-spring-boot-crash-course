@@ -21,7 +21,7 @@ sudo docker pull postgres
 
 instanciar/criar um container postgres
 docker run --name [nome imagme] -e POSTGRES_PASSWORD=210184 -d [nome banco]
-sudo docker run --name curso-spring-postgres -e POSTGRES_PASSWORD=210184 -p 5432:5432 -d postgres
+sudo docker run --name curso-spring-postgres -e POSTGRES_PASSWORD=[senha basica] -p 5432:5432 -d postgres
 
 ver os containers que estão ativos rodando
 sudo docker ps
